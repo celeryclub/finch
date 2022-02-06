@@ -1,0 +1,16 @@
+{
+  "name": "finch",
+  "version": "0.1.0",
+  "description": "Sonos metadata display",
+  "private": true,
+  "author": "Steve Davis <steve@celery.club>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celeryclub/finch.git"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {}
+}
