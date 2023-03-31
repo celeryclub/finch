@@ -1,6 +1,0 @@
-{
-  "watch": ["src/**/*.ts"],
-  "execMap": {
-    "ts": "node -r global-agent/bootstrap -r ts-node/register"
-  }
-}

@@ -1,0 +1,6 @@
+[package]
+name = "finch"
+version = "0.1.0"
+authors = ["Steve Davis <steve@celery.club>"]
+readme = "README.md"
+edition = "2021"
