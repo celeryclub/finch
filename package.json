@@ -12,5 +12,19 @@
   "engines": {
     "node": "16.x"
   },
-  "scripts": {}
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "watch": "nodemon ./src/main.ts",
+    "watch:proxy": "GLOBAL_AGENT_HTTP_PROXY=http://127.0.0.1:9090 nodemon ./src/main.ts"
+  },
+  "dependencies": {
+    "@svrooij/sonos": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.22",
+    "global-agent": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
 }
